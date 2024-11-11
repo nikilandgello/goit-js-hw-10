@@ -161,5 +161,122 @@ button {
     text-transform: uppercase;
 }
 
+/**promise-form**/
 
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 
+    max-width: 360px;
+    margin-top: 36px;
+    margin-left: 156px;
+}
+
+.form label:first-child {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.inputDelay {
+    width: auto;
+    min-height: 40px;
+
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 8px 16px;
+
+    transition: border 500ms;
+}
+
+.inputDelay:hover {
+    border: 1px solid #000;
+    outline: none;
+}
+
+.inputDelay:active,
+.inputDelay:focus {
+    border: 1px solid #4e75ff;
+    outline: none;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 48px;
+
+    border: 1px solid #808080;
+    border-radius: 4px;
+    height: 66px;
+    width: auto;
+
+    padding-bottom: 8px;
+    margin: 0;
+    transition: border 500ms;
+}
+
+fieldset:hover {
+    border: 1px solid #000;
+    outline: none;
+}
+
+legend {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+
+    padding: 0 5px;
+}
+
+fieldset label {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2e2f42;
+}
+
+fieldset input {
+    border: 1px solid #757575;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.form button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: auto;
+    height: 40px;
+    background-color: #4e75ff;
+    border: none;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+
+    transition: background-color 500ms;
+}
+
+.form button:hover {
+    background-color: #6c8cff;
+}
